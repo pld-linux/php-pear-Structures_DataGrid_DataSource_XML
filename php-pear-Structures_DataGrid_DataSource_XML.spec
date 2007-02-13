@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_XML
 Summary:	%{_pearname} - DataSource driver using XML files
-Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource do plików XML
+Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource do plików XML
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	1
