@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - DataSource driver using XML files
 Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource do plików XML
 Name:		php-pear-%{_pearname}
-Version:	0.1.2
+Version:	0.2.0
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	edec2baf9782eb8de6ddf9ac2db93d89
+# Source0-md5:	0f3e1f2f4438acf1b9b6cc47a95b2b57
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_XML/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
