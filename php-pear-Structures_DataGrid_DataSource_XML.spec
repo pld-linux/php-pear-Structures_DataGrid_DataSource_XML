@@ -1,15 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_XML
+%define		subver	dev1
+%define		rel		1
 Summary:	%{_pearname} - DataSource driver using XML files
 Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource do plików XML
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
-Release:	3
+Version:	0.2.1
+Release:	0.%{subver}.%{rel}
 License:	PHP License
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	0f3e1f2f4438acf1b9b6cc47a95b2b57
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{subver}.tgz
+# Source0-md5:	ff74e98c909a05139b14459c1d89da92
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_XML/
 BuildRequires:	php-pear-PEAR >= 1:1.6.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
